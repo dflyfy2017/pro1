@@ -19,6 +19,10 @@ public class LinkedListTest {
         return System.currentTimeMillis();
     }
 
+    public void getOne() {
+
+    }
+
     public void start(int len) {
         startTime = getTime();
         LinkedList<String> linkedList = add(len);
