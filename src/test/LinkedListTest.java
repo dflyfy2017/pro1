@@ -19,8 +19,8 @@ public class LinkedListTest {
         return System.currentTimeMillis();
     }
 
-    public void getOne() {
-
+    public void getOne(LinkedList<String> linkedList, int index) {
+        System.out.println(linkedList.get(index));
     }
 
     public void start(int len) {
