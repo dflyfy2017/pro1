@@ -4,6 +4,8 @@ import java.util.LinkedList;
 
 public class LinkedListTest {
 
+    private static LinkedList<String> linkedList;
+
     private static long startTime;
     private static long endTime;
 
@@ -25,7 +27,7 @@ public class LinkedListTest {
 
     public void start(int len) {
         startTime = getTime();
-        LinkedList<String> linkedList = add(len);
+        linkedList = add(len);
         System.out.println("LinkedList:" + (getTime() - startTime));
     }
 }
